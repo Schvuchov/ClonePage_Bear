@@ -1,0 +1,143 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+main{
+    height: 100%;
+    display: flex;
+}
+
+aside{
+    width: 40%;
+    display: flex;
+}    
+
+section{
+    width: 60%;
+    background-image: url(02fundobear.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    background-color:  #de7739;
+    border: 1px solid  #de7739;
+    border-radius: 5px;
+}
+
+/*ASIDE*/
+
+#divAside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgAside{
+    width: 20%;
+}
+
+a, aside{
+    text-decoration: none;
+}
+
+#aUm{
+    color:  #de7739;
+    cursor: pointer;
+}
+
+.inputAside{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+}
+
+p{
+    margin-bottom: 5px;
+    color: #777777;
+    
+}
+
+#divCheckbox{
+    display: flex; 
+    flex-direction: row;
+}
+
+#pDivCheckbox{
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+
+#btnAside{
+    width: 300px;
+    height: 45px;
+}
+
+#labelAside{
+    text-decoration: underline;
+    color: black;
+}
+
+#aDivAside{
+    margin: 15px;
+}
+
+.apDivAside {
+    color: #777777;
+    font-size: small;
+}
+
+#pAside{
+    font-size: small;
+}
+
+
+/*SECTION*/
+#divSection{
+    width: 40%;
+    height: 30%;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#hSection{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+
+#btnSection{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#imgSection{
+    width: 15px;
+}
+
+#pDivSection{
+    color: #777777;
+    font-size: medium;
+}
+
